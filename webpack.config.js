@@ -16,7 +16,7 @@ if (! dev) {
 }
 
 module.exports = {
-    mode: dev? "development": "production",
+    mode: "production",
     context: path.join (__dirname, "src"),
     devtool: dev? "none": "source-map",
     entry: {

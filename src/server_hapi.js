@@ -23,10 +23,10 @@ const init = async () => {
         path: '/{filepath*}',
         config: {
           auth: false,
-          cache: {
-            expiresIn: 24 * 60 * 60 * 1000,
-            privacy: 'public'
-          }
+        //   cache: {
+        //     expiresIn: 24 * 60 * 60 * 1000,
+        //     privacy: 'public'
+        //   }
         },
         handler: {
           directory: {
@@ -70,10 +70,12 @@ function htmlTemplate( reactDom ) {
         <head>
             <meta charset="utf-8">
             <title>React SSR</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         </head>
         
         <body>
-            <div id="app">${ reactDom }</div>
+            <noscript>You need to enable JavaScript to run this app.</noscript>
+            <div id="app">${reactDom}</div>
             <script src="/app.bundle.js"></script>
         </body>
         </html>
