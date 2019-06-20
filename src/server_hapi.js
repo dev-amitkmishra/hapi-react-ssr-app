@@ -36,6 +36,24 @@ const init = async () => {
           }
         }
     });
+    server.route({
+        method: 'GET',
+        path: '/public/images/{filepath*}',
+        config: {
+          auth: false,
+        //   cache: {
+        //     expiresIn: 24 * 60 * 60 * 1000,
+        //     privacy: 'public'
+        //   }
+        },
+        handler: {
+          directory: {
+            path: path.join(__dirname, '../public/images'),
+            listing: false,
+            index: false
+          }
+        }
+    });
 
     server.route({
         method: 'GET',
@@ -71,7 +89,8 @@ function htmlTemplate( reactDom ) {
             <meta charset="utf-8">
             <title>React SSR</title>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        </head>
+            <link rel="stylesheet" href="/styles.css" />
+            </head>
         
         <body>
             <noscript>You need to enable JavaScript to run this app.</noscript>

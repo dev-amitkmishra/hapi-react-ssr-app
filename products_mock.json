@@ -1,0 +1,362 @@
+[
+    {
+      "_id": "5d0654be2eb44f0904467496",
+      "name": "Kitchen Product1",
+      "description": "Minim ut in nostrud ullamco adipisicing Lorem elit laborum id deserunt qui non sint. Aliqua aute dolor labore nulla excepteur voluptate laborum commodo non consequat commodo esse. Et consequat esse duis ad proident eiusmod. Do eiusmod sit irure enim magna incididunt mollit non dolor aliqua nisi.",
+      "category": "kitchen",
+      "price": 88,
+      "offerMessage": "10% Off",
+      "outOfStock": false,
+      "availableStock": 66,
+      "ratingInfo": {
+        "rating": 4,
+        "userCount": 71
+      },
+      "thumbnail": "https://placeimg.com/170/170/tech"
+    },
+    {
+      "_id": "5d0654bef66ca713c9468d72",
+      "name": "Kitchen Product2",
+      "description": "Quis magna esse ullamco veniam nulla ipsum et esse Lorem. Aliquip aliqua nulla velit dolore reprehenderit Lorem enim culpa non aliqua enim. Ea nisi voluptate amet dolor elit labore velit laboris ea laboris aute officia Lorem.",
+      "category": "kitchen",
+      "price": 260,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 17,
+      "ratingInfo": {
+        "rating": 0,
+        "userCount": 65
+      },
+      "thumbnail": "https://placeimg.com/170/170/tech"
+    },
+    {
+      "_id": "5d0654bed5e468f9ba0fd512",
+      "name": "Kitchen Product3",
+      "description": "Ex tempor incididunt nulla mollit magna pariatur ut laborum duis commodo sit id culpa id. Qui mollit laboris cillum non consectetur sint aute duis fugiat adipisicing reprehenderit aute. Sit nulla est occaecat officia pariatur enim eiusmod duis nisi est. Sint nulla voluptate aliqua ullamco in. Fugiat eiusmod ullamco aute minim duis sit exercitation commodo nostrud duis Lorem laborum ad.",
+      "category": "kitchen",
+      "price": 41,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 39,
+      "ratingInfo": {
+        "rating": 1,
+        "userCount": 45
+      },
+      "thumbnail": "https://placeimg.com/170/170/tech"
+    },
+    {
+      "_id": "5d0654be9fe1ad2ba256b7ee",
+      "name": "Kitchen Product on Discount",
+      "description": "Minim tempor nulla laborum occaecat dolor irure in incididunt cillum eu. Ad est eiusmod nostrud amet laborum do sunt fugiat ea anim eiusmod incididunt. Aute reprehenderit voluptate esse cupidatat ullamco duis nulla commodo. Dolor pariatur exercitation ullamco laborum qui ipsum proident do enim ex velit eiusmod aliquip. Eu sunt reprehenderit anim consectetur labore fugiat est ut. Quis esse excepteur sint exercitation adipisicing est elit do esse et ad labore voluptate cupidatat. Irure voluptate ullamco quis dolor enim irure excepteur Lorem mollit exercitation dolor anim.",
+      "category": "kitchen",
+      "price": 13,
+      "offerMessage": "Limited Stock",
+      "outOfStock": false,
+      "availableStock": 70,
+      "ratingInfo": {
+        "rating": 4,
+        "userCount": 29
+      },
+      "thumbnail": "https://placeimg.com/170/170/tech"
+    },
+    {
+      "_id": "5d0654be23f635da35d979be",
+      "name": "Tool 1",
+      "description": "Aute eu esse laboris proident deserunt reprehenderit enim cupidatat pariatur pariatur amet ullamco exercitation labore. Nulla do cupidatat irure laboris amet eiusmod magna. Proident dolore elit eiusmod Lorem aute. Non ex deserunt est anim sunt magna fugiat. Est duis cillum elit non consectetur eiusmod in amet occaecat dolore. Duis nulla nostrud excepteur eiusmod do anim et ex adipisicing ipsum do labore.",
+      "category": "tools",
+      "price": 119,
+      "offerMessage": "25% Off",
+      "outOfStock": true,
+      "availableStock": 0,
+      "ratingInfo": {
+        "rating": 3,
+        "userCount": 28
+      },
+      "thumbnail": "https://placeimg.com/170/170/arch"
+    },
+    {
+      "_id": "5d0654bef46e860bc38475af",
+      "name": "Tool 2",
+      "description": "Minim aute culpa aute mollit occaecat ullamco eu reprehenderit anim Lorem anim incididunt. Magna irure quis reprehenderit ex ad commodo. Qui aute qui pariatur fugiat magna qui commodo esse. Quis et sint ullamco occaecat labore anim ad ipsum. Nulla cillum sunt adipisicing laboris commodo. Sunt nisi dolor ex occaecat sit culpa deserunt fugiat irure dolore sint deserunt. Aute officia anim adipisicing amet non ipsum aute.",
+      "category": "tools",
+      "price": 198,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 9,
+      "ratingInfo": {
+        "rating": 1,
+        "userCount": 51
+      }
+    },
+    {
+      "_id": "5d0654bead4758da98437555",
+      "name": "Tool 3",
+      "description": "Aute Lorem ex sint Lorem consectetur aute irure laborum occaecat qui minim nulla nisi. Do nisi minim velit consequat tempor non tempor elit nostrud elit. Anim elit nisi aute adipisicing duis dolor sit veniam elit pariatur adipisicing ipsum ullamco magna. Ut laborum occaecat aliqua ex ut aliquip sit labore. Cupidatat pariatur tempor ex ea.",
+      "category": "tools",
+      "price": 180,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 95,
+      "ratingInfo": {
+        "rating": 4,
+        "userCount": 45
+      }
+    },
+    {
+      "_id": "5d0654beaa8c6e938039bddc",
+      "name": "Tool 4",
+      "description": "Quis dolore ex minim dolore proident esse ullamco do elit aliqua. Nisi culpa fugiat consectetur nisi veniam ut ex ex est. Sint cupidatat cupidatat aliqua occaecat.",
+      "category": "tools",
+      "price": 70,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 55,
+      "ratingInfo": {
+        "rating": 0,
+        "userCount": 56
+      }
+    },
+  
+    {
+      "_id": "6d0654be2eb44f0904467496",
+      "name": "Hardware 1",
+      "description": "Minim ut in nostrud ullamco adipisicing Lorem elit laborum id deserunt qui non sint. Aliqua aute dolor labore nulla excepteur voluptate laborum commodo non consequat commodo esse. Et consequat esse duis ad proident eiusmod. Do eiusmod sit irure enim magna incididunt mollit non dolor aliqua nisi.",
+      "category": "hardware",
+      "price": 88,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 66,
+      "ratingInfo": {
+        "rating": 4,
+        "userCount": 71
+      },
+      "thumbnail": "https://placeimg.com/170/170/tech"
+    },
+    {
+      "_id": "6d0654bef66ca713c9468d72",
+      "name": "Hardware 2",
+      "description": "Quis magna esse ullamco veniam nulla ipsum et esse Lorem. Aliquip aliqua nulla velit dolore reprehenderit Lorem enim culpa non aliqua enim. Ea nisi voluptate amet dolor elit labore velit laboris ea laboris aute officia Lorem.",
+      "category": "hardware",
+      "price": 260,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 17,
+      "ratingInfo": {
+        "rating": 0,
+        "userCount": 65
+      },
+      "thumbnail": "https://placeimg.com/170/170/tech"
+    },
+    {
+      "_id": "6d0654bed5e468f9ba0fd512",
+      "name": "Hardware 3",
+      "description": "Ex tempor incididunt nulla mollit magna pariatur ut laborum duis commodo sit id culpa id. Qui mollit laboris cillum non consectetur sint aute duis fugiat adipisicing reprehenderit aute. Sit nulla est occaecat officia pariatur enim eiusmod duis nisi est. Sint nulla voluptate aliqua ullamco in. Fugiat eiusmod ullamco aute minim duis sit exercitation commodo nostrud duis Lorem laborum ad.",
+      "category": "hardware",
+      "price": 41,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 39,
+      "ratingInfo": {
+        "rating": 1,
+        "userCount": 45
+      },
+      "thumbnail": "https://placeimg.com/170/170/tech"
+    },
+    {
+      "_id": "6d0654be9fe1ad2ba256b7ee",
+      "name": "Hardware 4",
+      "description": "Minim tempor nulla laborum occaecat dolor irure in incididunt cillum eu. Ad est eiusmod nostrud amet laborum do sunt fugiat ea anim eiusmod incididunt. Aute reprehenderit voluptate esse cupidatat ullamco duis nulla commodo. Dolor pariatur exercitation ullamco laborum qui ipsum proident do enim ex velit eiusmod aliquip. Eu sunt reprehenderit anim consectetur labore fugiat est ut. Quis esse excepteur sint exercitation adipisicing est elit do esse et ad labore voluptate cupidatat. Irure voluptate ullamco quis dolor enim irure excepteur Lorem mollit exercitation dolor anim.",
+      "category": "hardware",
+      "price": 13,
+      "offerMessage": "Limited Stock",
+      "outOfStock": false,
+      "availableStock": 70,
+      "ratingInfo": {
+        "rating": 4,
+        "userCount": 29
+      },
+      "thumbnail": "https://placeimg.com/170/170/tech"
+    },
+    {
+      "_id": "7d0654be23f635da35d979be",
+      "name": "Garden 1",
+      "description": "Aute eu esse laboris proident deserunt reprehenderit enim cupidatat pariatur pariatur amet ullamco exercitation labore. Nulla do cupidatat irure laboris amet eiusmod magna. Proident dolore elit eiusmod Lorem aute. Non ex deserunt est anim sunt magna fugiat. Est duis cillum elit non consectetur eiusmod in amet occaecat dolore. Duis nulla nostrud excepteur eiusmod do anim et ex adipisicing ipsum do labore.",
+      "category": "garden",
+      "price": 119,
+      "offerMessage": "25% Off",
+      "outOfStock": true,
+      "availableStock": 0,
+      "ratingInfo": {
+        "rating": 3,
+        "userCount": 28
+      },
+      "thumbnail": "https://placeimg.com/170/170/arch"
+    },
+    {
+      "_id": "7d0654bef46e860bc38475af",
+      "name": "Garden 2",
+      "description": "Minim aute culpa aute mollit occaecat ullamco eu reprehenderit anim Lorem anim incididunt. Magna irure quis reprehenderit ex ad commodo. Qui aute qui pariatur fugiat magna qui commodo esse. Quis et sint ullamco occaecat labore anim ad ipsum. Nulla cillum sunt adipisicing laboris commodo. Sunt nisi dolor ex occaecat sit culpa deserunt fugiat irure dolore sint deserunt. Aute officia anim adipisicing amet non ipsum aute.",
+      "category": "garden",
+      "price": 198,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 9,
+      "ratingInfo": {
+        "rating": 1,
+        "userCount": 51
+      },
+      "thumbnail": "https://placeimg.com/170/170/arch"
+    },
+    {
+      "_id": "7d0654bead4758da98437555",
+      "name": "Garden 3",
+      "description": "Aute Lorem ex sint Lorem consectetur aute irure laborum occaecat qui minim nulla nisi. Do nisi minim velit consequat tempor non tempor elit nostrud elit. Anim elit nisi aute adipisicing duis dolor sit veniam elit pariatur adipisicing ipsum ullamco magna. Ut laborum occaecat aliqua ex ut aliquip sit labore. Cupidatat pariatur tempor ex ea.",
+      "category": "garden",
+      "price": 180,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 95,
+      "ratingInfo": {
+        "rating": 4,
+        "userCount": 45
+      },
+      "thumbnail": "https://placeimg.com/170/170/arch"
+    },
+    {
+      "_id": "7d0654beaa8c6e938039bddc",
+      "name": "Garden 4",
+      "description": "Quis dolore ex minim dolore proident esse ullamco do elit aliqua. Nisi culpa fugiat consectetur nisi veniam ut ex ex est. Sint cupidatat cupidatat aliqua occaecat.",
+      "category": "garden",
+      "price": 70,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 55,
+      "ratingInfo": {
+        "rating": 0,
+        "userCount": 56
+      },
+      "thumbnail": "https://placeimg.com/170/170/arch"
+    },
+  
+    {
+      "_id": "8d0654be2eb44f0904467496",
+      "name": "Flashlight 1",
+      "description": "Minim ut in nostrud ullamco adipisicing Lorem elit laborum id deserunt qui non sint. Aliqua aute dolor labore nulla excepteur voluptate laborum commodo non consequat commodo esse. Et consequat esse duis ad proident eiusmod. Do eiusmod sit irure enim magna incididunt mollit non dolor aliqua nisi.",
+      "category": null,
+      "price": 88,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 66,
+      "ratingInfo": {
+        "rating": 4,
+        "userCount": 71
+      },
+      "thumbnail": "https://placeimg.com/170/170/tech"
+    },
+    {
+      "_id": "8d0654bef66ca713c9468d72",
+      "name": "Smart Home Products",
+      "description": "Quis magna esse ullamco veniam nulla ipsum et esse Lorem. Aliquip aliqua nulla velit dolore reprehenderit Lorem enim culpa non aliqua enim. Ea nisi voluptate amet dolor elit labore velit laboris ea laboris aute officia Lorem.",
+      "category": null,
+      "price": 260,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 17,
+      "ratingInfo": {
+        "rating": 0,
+        "userCount": 65
+      },
+      "thumbnail": "https://placeimg.com/170/170/tech"
+    },
+    {
+      "_id": "8d0654bed5e468f9ba0fd512",
+      "name": "Grills",
+      "description": "Ex tempor incididunt nulla mollit magna pariatur ut laborum duis commodo sit id culpa id. Qui mollit laboris cillum non consectetur sint aute duis fugiat adipisicing reprehenderit aute. Sit nulla est occaecat officia pariatur enim eiusmod duis nisi est. Sint nulla voluptate aliqua ullamco in. Fugiat eiusmod ullamco aute minim duis sit exercitation commodo nostrud duis Lorem laborum ad.",
+      "category": null,
+      "price": 41,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 39,
+      "ratingInfo": {
+        "rating": 1,
+        "userCount": 45
+      },
+      "thumbnail": "https://placeimg.com/170/170/tech"
+    },
+    {
+      "_id": "8d0654be9fe1ad2ba256b7ee",
+      "name": "Hardware Offers",
+      "description": "Minim tempor nulla laborum occaecat dolor irure in incididunt cillum eu. Ad est eiusmod nostrud amet laborum do sunt fugiat ea anim eiusmod incididunt. Aute reprehenderit voluptate esse cupidatat ullamco duis nulla commodo. Dolor pariatur exercitation ullamco laborum qui ipsum proident do enim ex velit eiusmod aliquip. Eu sunt reprehenderit anim consectetur labore fugiat est ut. Quis esse excepteur sint exercitation adipisicing est elit do esse et ad labore voluptate cupidatat. Irure voluptate ullamco quis dolor enim irure excepteur Lorem mollit exercitation dolor anim.",
+      "category": null,
+      "price": 13,
+      "offerMessage": "Limited Stock",
+      "outOfStock": false,
+      "availableStock": 70,
+      "ratingInfo": {
+        "rating": 4,
+        "userCount": 29
+      },
+      "thumbnail": "https://placeimg.com/170/170/tech"
+    },
+    {
+      "_id": "9d0654be23f635da35d979be",
+      "name": "Discounted Products 1",
+      "description": "Aute eu esse laboris proident deserunt reprehenderit enim cupidatat pariatur pariatur amet ullamco exercitation labore. Nulla do cupidatat irure laboris amet eiusmod magna. Proident dolore elit eiusmod Lorem aute. Non ex deserunt est anim sunt magna fugiat. Est duis cillum elit non consectetur eiusmod in amet occaecat dolore. Duis nulla nostrud excepteur eiusmod do anim et ex adipisicing ipsum do labore.",
+      "category": null,
+      "price": 119,
+      "offerMessage": "25% Off",
+      "outOfStock": true,
+      "availableStock": 0,
+      "ratingInfo": {
+        "rating": 3,
+        "userCount": 28
+      },
+      "thumbnail": "https://placeimg.com/170/170/arch"
+    },
+    {
+      "_id": "9d0654bef46e860bc38475af",
+      "name": "Discounted Products 2",
+      "description": "Minim aute culpa aute mollit occaecat ullamco eu reprehenderit anim Lorem anim incididunt. Magna irure quis reprehenderit ex ad commodo. Qui aute qui pariatur fugiat magna qui commodo esse. Quis et sint ullamco occaecat labore anim ad ipsum. Nulla cillum sunt adipisicing laboris commodo. Sunt nisi dolor ex occaecat sit culpa deserunt fugiat irure dolore sint deserunt. Aute officia anim adipisicing amet non ipsum aute.",
+      "category": null,
+      "price": 198,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 9,
+      "ratingInfo": {
+        "rating": 1,
+        "userCount": 51
+      },
+      "thumbnail": "https://placeimg.com/170/170/arch"
+    },
+    {
+      "_id": "9d0654bead4758da98437555",
+      "name": "Discounted Products 3",
+      "description": "Aute Lorem ex sint Lorem consectetur aute irure laborum occaecat qui minim nulla nisi. Do nisi minim velit consequat tempor non tempor elit nostrud elit. Anim elit nisi aute adipisicing duis dolor sit veniam elit pariatur adipisicing ipsum ullamco magna. Ut laborum occaecat aliqua ex ut aliquip sit labore. Cupidatat pariatur tempor ex ea.",
+      "category": null,
+      "price": 180,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 95,
+      "ratingInfo": {
+        "rating": 4,
+        "userCount": 45
+      },
+      "thumbnail": "https://placeimg.com/170/170/arch"
+    },
+    {
+      "_id": "9d0654beaa8c6e938039bddc",
+      "name": "Discounted Products 4",
+      "description": "Quis dolore ex minim dolore proident esse ullamco do elit aliqua. Nisi culpa fugiat consectetur nisi veniam ut ex ex est. Sint cupidatat cupidatat aliqua occaecat.",
+      "category": null,
+      "price": 70,
+      "offerMessage": null,
+      "outOfStock": false,
+      "availableStock": 55,
+      "ratingInfo": {
+        "rating": 0,
+        "userCount": 56
+      },
+      "thumbnail": "https://placeimg.com/170/170/arch"
+    }
+  ]
+  
