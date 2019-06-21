@@ -9,7 +9,7 @@ import { StaticRouter } from "react-router-dom";
 import Layout from "./components/Layout";
 
 const init = async () => {
-    
+
     const server = hapi.server({
         port: 3010,
         host: 'localhost'
@@ -57,6 +57,26 @@ const init = async () => {
 
     server.route({
         method: 'GET',
+        path: '/nodeModules/{filepath*}',
+        config: {
+          auth: false,
+        //   cache: {
+        //     expiresIn: 24 * 60 * 60 * 1000,
+        //     privacy: 'public'
+        //   }
+        },
+        handler: {
+          directory: {
+            path: path.join(__dirname, '../node_modules/'),
+            listing: false,
+            index: false
+          }
+        }
+    });
+    
+
+    server.route({
+        method: 'GET',
         path:'/',
         handler: (request, reply) => {
             const context = { };
@@ -90,6 +110,8 @@ function htmlTemplate( reactDom ) {
             <title>React SSR</title>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
             <link rel="stylesheet" href="/styles.css" />
+            <link rel="stylesheet" href="nodeModules/slick-carousel/slick/slick.css" />
+            <link rel="stylesheet" href="nodeModules/slick-carousel/slick/slick-theme.css" />
             </head>
         
         <body>

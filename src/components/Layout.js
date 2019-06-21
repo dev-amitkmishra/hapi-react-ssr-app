@@ -10,6 +10,7 @@ import productsJsonData from "../../products_mock.json";
 import InnerList from "./innerList";
 import AccordionCard from "./accordionCard";
 import { GroupBy } from "../utils";
+import Slider from "react-slick";
 // import { faHome, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -33,6 +34,7 @@ export default class Layout extends React.Component {
         const productsGroupedDataByCategory = GroupBy(productsJsonData, 'category');
         const productsGroupedDataByPrice = GroupBy(productsJsonData, 'price');
         const productsGroupedDataByRatingInfo = GroupBy(productsJsonData, 'ratingInfo');
+        console.log(productsGroupedDataByRatingInfo);
         const productsGroupedDataByOffer = GroupBy(productsJsonData, 'offerMessage');
         return (
             <div>
@@ -55,6 +57,29 @@ export default class Layout extends React.Component {
                         </div>
                         <div className="col-9" style={{marginTop: '23px'}}>
                             <Category productsData={productsGroupedDataByCategory}/>
+                            {/* <div>
+                                <h2> Single Item</h2>
+                                <Slider {...settings}>
+                                <div>
+                                    <h3>1</h3>
+                                </div>
+                                <div>
+                                    <h3>2</h3>
+                                </div>
+                                <div>
+                                    <h3>3</h3>
+                                </div>
+                                <div>
+                                    <h3>4</h3>
+                                </div>
+                                <div>
+                                    <h3>5</h3>
+                                </div>
+                                <div>
+                                    <h3>6</h3>
+                                </div>
+                                </Slider>
+                            </div> */}
                         </div>
                     </div>
                 </div>
